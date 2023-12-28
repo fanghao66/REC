@@ -5,9 +5,6 @@ from surprise import accuracy, Dataset, NormalPredictor, dump
 from surprise.model_selection import train_test_split
 
 # 1. 加载数据
-# Load the movielens-100k dataset (download it if needed)
-# 加载ml-100k的数据集，如果不存在，会从网络上下载: C:\Users\19410\.surprise_data
-#Dataset.load系列方法将数据转换成固定格式,data.raw_ratings能获得数据信息，List[tuple(urid, irid, r, timestamp),tuple(urid, irid, r, timestamp)]的形式
 data = Dataset.load_builtin("ml-100k")
 
 # 2. 数据转换

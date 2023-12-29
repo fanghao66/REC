@@ -13,7 +13,7 @@ data = Dataset.load_builtin("ml-100k")
 # test set is made of 25% of the ratings.
 trainset, testset = train_test_split(data, test_size=0.25)
 
-# 3. 构建模型对象
+# 3. 构建模型对像
 algo = NormalPredictor()
 
 # 4. 模型训练

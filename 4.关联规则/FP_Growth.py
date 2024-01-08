@@ -150,11 +150,6 @@ class Fp_growth():
 
 
 if __name__ == "__main__":
-
-    ##config
-    # filename="药方.xls"
-    # min_support=500#最小支持度
-    # min_conf=0.9#最小置信度
     datas=[
         ['A','B','C','E','F','O'],
         ['A','C','G'],

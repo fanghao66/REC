@@ -43,7 +43,7 @@ accuracy.fcp(predictions)  # 评估
 # dump.dump(f"{output_dir}/model.pkl", predictions=None, algo=algo)
 # _, algo = dump.load(f"{output_dir}/model.pkl")
 
-# 7. 模型的预测
+# 7.wide&deep改进. 模型的预测
 print("=" * 100)
 y_ = algo.predict(uid="196", iid="224", r_ui=None, clip=True)
 print(y_)

@@ -38,7 +38,7 @@ class FM_Model(nn.Module):
         self.sigmoid=nn.Sigmoid()
     def forward(self,x):
         '''
-        x:[N,feat_num]
+        x:[N,field_dim]
         '''
         #1.对原始数据做编码，一个特征对应一个序号
         N, _ = x.shape
